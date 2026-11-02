@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>
+                Datos personales
+            </legend>
+            <label for="nombrecompleto">Introduzca su nombre completo :</label>
+            <input type="text" id="nombrecompleto" placeholder="Ej: Jaume Torres Vavrlova">
+            <br>
+            <label for="email">Introduzca su correo electronico :</label>
+            <input type="email" id="email" placeholder="abc@cifpfbmoll.eu">
+            <br>
+            <label for="contr">Introduzca su contraseña :</label>
+            <input type="password" minlength="8" id="contr" placeholder="****************">
+            <br>
+            <label for="fechnac">Introduzca su fecha de nacimiento :</label>
+            <input type="date" id="fechnac">
+            <br>
+            <label for="edad">Introduzca su edad :</label>
+            <input type="number" min="16" max="99" value="16" id="edad">
+        </fieldset>
+        <fieldset>
+            <legend>
+                Datos academicos y preferencias
+            </legend>
+           <label for="turno"> Seleccione turno de estudio :</label>
+            <input type="radio" name="turno" value="Mañana" id="turno">
+            <label for="turno">Mañana</label>
+            <input type="radio" name="turno" value="Tarde" id="turno">
+            <label for="turno">Tarde</label>
+            <br>
+            <label for="check">Seleccione los modulos en los que esta matriculado :</label>
+            <br>
+            <input type="checkbox" id="check">
+            <label>Lenguaje de marcas</label>
+            <input type="checkbox" id="check">
+            <label>Programación</label>
+            <input type="checkbox" id="check">
+            <label>Bases de datos</label>
+            <br>
+            <label for="lista">Seleccione su nivel de experiencia previa :</label>
+            <select id="lista">
+                <option></option>
+                <option>Sin experiencia</option>
+                <option>Basico</option>
+                <option>Intermedio</option>
+                <option>Avanzado</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Observaciones y botones
+            </legend>
+           <label for="textar"> Comentarios / Biografia :</label>
+            <br>
+            <textarea rows="4" cols="40" id="textar"></textarea>
+            <br>
+            <label for="priv">Acepta las politicas de privacidad : </label>
+            <input type="checkbox" id="priv">
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reiniciar valores</button>
+        </fieldset>
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
